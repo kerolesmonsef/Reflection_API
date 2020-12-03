@@ -1,0 +1,14 @@
+{
+    "name": "vendor/kero",
+    "description": "kero package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keroles Monsef",
+            "email": "kerolesmonsef@gmail.com"
+        }
+    ],
+    "require": {
+        "larapack/dd": "^1.1"
+    }
+}

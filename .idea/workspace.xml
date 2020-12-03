@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bd20fb9-8436-4855-88f4-bec80f1f2a4f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1in3CQLk2bgRtcOZcOEyUwImdbr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MVC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MVC\APP" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bd20fb9-8436-4855-88f4-bec80f1f2a4f" name="Default Changelist" comment="" />
+      <created>1602529400768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602529400768</updated>
+      <workItem from="1602529403158" duration="1849000" />
+      <workItem from="1602533443419" duration="8373000" />
+      <workItem from="1602587726701" duration="445000" />
+      <workItem from="1605689697953" duration="89000" />
+      <workItem from="1605699821183" duration="784000" />
+      <workItem from="1607023860522" duration="13653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1607031045723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1607031045723" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607030892010">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607030892010" />
+    <state x="402" y="52" key="#index.php" timestamp="1607031246454">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="52" key="#index.php/0.0.1366.728@0.0.1366.728" timestamp="1607031246454" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1605701286416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605701286416" />
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom" timestamp="1607031288757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607031288757" />
+    <state width="1323" height="195" key="GridCell.Tab.0.center" timestamp="1607031288757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607031288757" />
+    <state width="1323" height="195" key="GridCell.Tab.0.left" timestamp="1607031288756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607031288756" />
+    <state width="1323" height="195" key="GridCell.Tab.0.right" timestamp="1607031288757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607031288757" />
+    <state x="499" y="198" key="NewPhpClassDialog" timestamp="1607030872811">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="198" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1607030872811" />
+    <state x="518" y="295" key="NewPhpFileDialog" timestamp="1602540103346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="295" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602540103346" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1607031211260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607031211260" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607024141846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607024141846" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/route.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
