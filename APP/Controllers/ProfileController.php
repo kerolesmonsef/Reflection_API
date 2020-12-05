@@ -10,6 +10,6 @@ class ProfileController extends Controller
 {
     public function profile(Request $request, $name)
     {
-
+        dd("Hi $name");
     }
 }

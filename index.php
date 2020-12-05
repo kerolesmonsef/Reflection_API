@@ -60,12 +60,12 @@ function routeGetMatch(string $url)
     throw new Exception("Route [ $url ] Not Found.");
 }
 
-$routes = [
-    '/' => [HomeController::class, 'index'],
-    '/profile/{name}' => [ProfileController::class, "profile"],
-    '/profile/{name}/friends' => [ProfileController::class, "show"],
-    '/profile/{name}/friends/{limit}' => [ProfileController::class, "show"],
-];
+//$routes = [
+//    '/' => [HomeController::class, 'index'],
+//    '/profile/{name}' => [ProfileController::class, "profile"],
+//    '/profile/{name}/friends' => [ProfileController::class, "show"],
+//    '/profile/{name}/friends/{limit}' => [ProfileController::class, "show"],
+//];
 
 /**
  * if you enter www.domain.com/profile/keroles
