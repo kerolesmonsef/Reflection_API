@@ -4,15 +4,15 @@ use App\Controllers\HomeController;
 use App\Controllers\ProfileController;
 use App\Providers\Application;
 use App\Request;
+use App\Route;
 
 require 'vendor/autoload.php';
 
 require_once('helpers.php');
 require_once('autoloader.php');
+require_once('route.php');
 
-
-//require_once('route.php');
-
+//dd(Route::$validRouts);
 
 /**
  * you can do this with another way
@@ -26,14 +26,19 @@ require_once('autoloader.php');
  *
  *
  * @param string $url
- * @param array $routes
  * @return array
  * @throws Exception
  */
-function routeGetMatch(string $url, array $routes)
+function routeGetMatch(string $url)
 {
     $url = explode("?", $url)[0];
-    foreach ($routes as $route => $action) {
+    $routes = Route::$validRouts;
+
+
+    foreach ($routes as $route) {
+        $action = $route['action'];
+        $method = $route['method'];
+        $route = $route['route'];
         preg_match_all("#\{(.*?)\}#", $route, $matches);
         if (!empty($matches[0])) {
             // prepare the route with regular expression
@@ -44,7 +49,10 @@ function routeGetMatch(string $url, array $routes)
         preg_match_all("#^" . $route . "$#", $url, $matches);
         if (isset($matches[0][0])) {
             array_shift($matches);
-
+            if (strtolower($method) != strtolower($_SERVER['REQUEST_METHOD'])){
+                $requested_method = $_SERVER['REQUEST_METHOD'];
+                throw new Exception("The $requested_method is Not Supported For This Route, Supported $method");
+            }
             return [$action, sizeof($matches) > 0 ? array_merge(...$matches) : []];
         }
     }
@@ -69,7 +77,7 @@ $routes = [
  */
 
 
-[$action, $queryParameters] = routeGetMatch($_SERVER['REQUEST_URI'] ?? "/", $routes);
+[$action, $queryParameters] = routeGetMatch($_SERVER['REQUEST_URI'] ?? "/");
 
 //dd($queryParameters);
 
